@@ -1,4 +1,5 @@
 {
+  "homepage": "https://saaastestaccount.github.io/ms-identity-javascript-v2/",
   "name": "ms-identity-javascript-v2",
   "version": "1.0.0",
   "description": "A JavaScript single-page application calling Microsoft Graph API using MSAL.js (w/ AAD v2 endpoint)",
