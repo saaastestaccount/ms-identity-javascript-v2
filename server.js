@@ -18,7 +18,7 @@ app.use(express.static('app'));
 
 // Set up a route for json
 app.get('.well-known/microsoft-identity-association.json', (req, res) => {
-    res.sendFile(path.join(__dirname + '.well-known/microsoft-identity-association.json'));
+    res.sendFile(path.join(__dirname + '/.well-known/microsoft-identity-association.json'));
 });
 
 // Set up a route for index.html
