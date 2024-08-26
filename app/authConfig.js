@@ -8,7 +8,7 @@ const msalConfig = {
         // 'Application (client) ID' of app registration in Azure portal - this value is a GUID
         clientId: "ff414cbb-5207-4954-8303-444fc33ffde7",
         // Full directory URL, in the form of https://login.microsoftonline.com/<tenant-id>
-        authority: "https://login.microsoftonline.com/common",
+        authority: "https://login.microsoftonline.com/d54993db-08f2-4a00-9d23-96a6c3b59da6",
         // Full redirect URL, in form of http://localhost:3000
         redirectUri: "https://samlmsacegdn.azurewebsites.net/index.html",
     },
