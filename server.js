@@ -17,7 +17,7 @@ app.use(morgan('dev'));
 app.use(express.static('app'));
 
 // Set up a route for json
-app.get('.well-known/microsoft-identity-association.json', (req, res) => {
+app.get('/.well-known/microsoft-identity-association.json', (req, res) => {
     res.sendFile(path.join(__dirname + '/.well-known/microsoft-identity-association.json'));
 });
 
